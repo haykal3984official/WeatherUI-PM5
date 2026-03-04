@@ -1,0 +1,17 @@
+name: WeatherUI
+author: Haykal3984
+api: 5.0.0
+version: 1.1.0
+main: weather\haykal3984\main
+
+commands:
+  weatherui:
+     description: "Open Weather Menu"
+        aliases: [wui, wth]
+           permission: weatherui.command
+
+           permissions:
+             weatherui.command:
+                description: "Permission To use"
+                   default: op
+                   
